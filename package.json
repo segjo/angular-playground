@@ -6,7 +6,7 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test:ci": "ng test --watch=false --browsers=ChromeHeadlessSandbox",
+    "test:ci": "ng test --watch=false --browsers=ChromeHeadlessCI",
     "docker:build": "docker build -t hello-angular .",
     "docker:run": "docker run -p 8555:8555 -d --name hello hello-angular",
     "docker:stop": "docker stop hello && docker rm hello",
